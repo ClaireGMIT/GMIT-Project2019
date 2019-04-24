@@ -9,11 +9,10 @@ The four features measured were the length and width of the sepals and petals in
 The combination of these four features can be used to identify each particular species
 
 23April2019
-    Have created code to import the numpy program for performing scientific calculations
-    Have used iPython on CMDER to check that code i am writing is error free. i have found some errors but have resolved them. see notes in code for examples
-    Have written code to find the mean value for data in each column. Next step is to sub divide it by species and create graphs.
-
-24April2019
-    Updated initial code and broke into smaller, simple modules to perform each data analysis - mean, standard deviation, min/max values and graphs
-    Began to practise dviding data by species. 
-    Need to look at how to report output in 1 or decimal places
+    *Have created code to import the numpy program for performing scientific calculations
+    *Have used iPython on CMDER to check that code i am writing is error free. i have found some errors but have resolved them. see notes in code for examples
+    *Have written code to find the mean value for data in each column. Next step is to sub divide it by species and create graphs.
+    *Updated initial code and broke into smaller, simple modules to perform each data analysis - mean, standard deviation, min/max values and graphs
+    *Combined smaller modules into one lasrger module for basic statisitics. If i have time I would like to look at having the output be in a table.
+    *Began to practise dviding data by species. 
+    *Need to look at how to report output in 1 or decimal places

@@ -14,48 +14,34 @@ PetLeng = data[:,2]
 PetWid = data[:,3]
 Species = data[:,4]
 
-# Initally copied and pasted all code into this file but the out put was too crude
+# Initally copied and pasted all code into this file but while i got all the statistic values, the output was too crude. Next step is tidy up the output
 
 meanSepLeng = numpy.mean(data[:,0])
-print("Mean Sepal length is ", meanSepLeng)
-
-meanSepWid = numpy.mean(data[:,1])
-print("Mean Sepal Width is ", meanSepWid)
-
-meanPetLeng = numpy.mean(data[:,2])
-print("Mean Petal length is ", meanPetLeng)
-
-meanPetWid = numpy.mean(data[:,3])
-print("Mean Petal Width is ", meanPetWid)
-
 StdSepLeng = numpy.std(data[:,0])
-print("Sepal length standard deviation is ", StdSepLeng)
-
-StdSepWid = numpy.std(data[:,1])
-print("Sepal Width standard deviation is ", StdSepWid)
-
-StdPetLeng = numpy.std(data[:,2])
-print("Petal length standard deviation is ", StdPetLeng)
-
-StdPetWid = numpy.std(data[:,3])
-print("Petal Width standard deviation is ", StdPetWid)
-
 MinSepLeng = numpy.min(data[:,0])
 MaxSepLeng = numpy.max(data[:,0])
-print("Sepal length min value is ", MinSepLeng , "and the max value is", MaxSepLeng)
 
+meanSepWid = numpy.mean(data[:,1])
+StdSepWid = numpy.std(data[:,1])
 MinSepWid = numpy.min(data[:,1])
 MaxSepWid = numpy.max(data[:,1])
-print("Sepal Width min value is ", MinSepWid , "and the max value is", MaxSepWid)
 
+meanPetLeng = numpy.mean(data[:,2])
+StdPetLeng = numpy.std(data[:,2])
 MinPetLeng = numpy.min(data[:,2])
 MaxPetLeng = numpy.max(data[:,2])
-print("Petal Length min value is ", MinPetLeng , "and the max value is", MaxPetLeng)
 
+meanPetWid = numpy.mean(data[:,3])
+StdPetWid = numpy.std(data[:,3])
 MinPetWid = numpy.min(data[:,3])
 MaxPetWid = numpy.max(data[:,3])
-print("Petal Width min value is ", MinPetWid , "and the max value is", MaxPetWid)
 
+print("Sepal Length Summary Statistics are:" , "mean: ", meanSepLeng, ", Std Dev: ", StdSepLeng, ", min and max:", MinSepLeng , MaxSepLeng)
 
+print("Sepal Width Summary Statistics are:" , "mean: ", meanSepWid, ", Std Dev: ", StdSepWid, ", min and max:", MinSepWid , MaxSepWid)
 
+print("Petal Length Summary Statistics are:" , "mean: ", meanPetLeng, ", Std Dev: ", StdPetLeng, ", min and max:", MinPetLeng , MaxPetLeng)
 
+print("Petal Width Summary Statistics are:" , "mean: ", meanPetWid, ", Std Dev: ", StdPetWid, ", min and max:", MinPetWid , MaxPetWid)
+
+# This tidies up the data but if i have time i will try to give the output in a table format
