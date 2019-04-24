@@ -1,12 +1,9 @@
-# Claire Nolan 23Apr2019
+# Claire Nolan 24Apr2019
 
 # PANDS Project 2019
-# Code to statistically analyse a data set
+# Small module to analyse a data set and output the mean value
 # Data set to be analysed is Fisher's Iris Data Set
-# The Iris dataset was published and discussed in RObert Fishers 1936 paper "The use of multiple measurements in taxonomic problem". The data was collected to quantify the physical variation of Iris flowers of three related species. 
-# The data set consists of 50 samples from three species of iris (Iris setosa, Iris virginica, Iris versicolor). 
-# The four features measured were the length and width of the sepals and petals in centimetres. 
-# The combination of these four features can be used to identify each particular species
+
 
 # Step 1: Format data set for analysis
 # Note: Using ipython to check code quality before importing into python file
