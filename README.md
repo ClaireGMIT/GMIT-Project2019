@@ -14,3 +14,6 @@ The combination of these four features can be used to identify each particular s
     Have written code to find the mean value for data in each column. Next step is to sub divide it by species and create graphs.
 
 24April2019
+    Updated initial code and broke into smaller, simple modules to perform each data analysis - mean, standard deviation, min/max values and graphs
+    Began to practise dviding data by species. 
+    Need to look at how to report output in 1 or decimal places
