@@ -22,7 +22,10 @@ The combination of these four features can be used to identify each particular s
     *Next step is to sub divide it by species and create graphs.
     *Need to look at how to report output in 1 or 2 decimal places
 
-
-
+25April2019
+    *Worked on labelling the scatter graph title and axes. Used and reread https://matplotlib.org/users/pyplot_tutorial.html using a practise file to copy and paste code from tutorial so i could understand what each line of code would do. 
+    *I was also able to create histograms. 
+    *Currently output in "BasicGraphs.py" shows scatter plots (four graphs - two proahs per two window) and histograms (four graphs pn one window and one graph on four windows)  
+    *Next steps to look at dividing output by species
 
 
