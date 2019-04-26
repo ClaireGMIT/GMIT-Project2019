@@ -31,6 +31,7 @@ The combination of these four features can be used to identify each particular s
 26April2019
     *Basic summary stats program (BasicSummStats.py) and graph program (BasicGraphs.py) joined into one program called "SummaryStatsGraph.py". this is now a program that will take a data set, format data into an array for analysis then perform analysis on the data. The output is summary statistics (mean standard, deiation, min/max), histogram and scatterplots for each variable.
     *As per my HIPO plan i have completed one section of my project plan. The next step is to repeat the same program but sub divide the output by species.
+    *Began looking at using PANDAs to organise my data into 2D dataframes ie columne containing data and rows containing indexes. Having some issues with errors which i'll look into more tomorrow.
 
 
 

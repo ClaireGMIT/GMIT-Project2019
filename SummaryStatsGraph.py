@@ -47,6 +47,18 @@ print("Petal Length Summary Statistics are:" , "mean: ", meanPetLeng, ", Std Dev
 
 print("Petal Width Summary Statistics are:" , "mean: ", meanPetWid, ", Std Dev: ", StdPetWid, ", min and max:", MinPetWid , MaxPetWid)
 
+##########################
+# This is a code that could be used to give the results as a table using PANDAs.
+# A Pandas series is a one-dimensional data structure that can hold any data type such as integers and strings.
+# ref: https://towardsdatascience.com/python-for-data-science-part-3-be9b08660af9
+#  
+# While it runs i don't get an output table - I'll work on this
+import pandas as pd
+df1 = pd.DataFrame([{'Variable' : 'Sepal Length', 'Mean' :  meanSepLeng, 'Std Dev' : StdSepLeng},{'Variable' : 'Sepal Width', 'Mean' :  meanSepWid, 'Std Dev' : StdSepWid},{'Variable' : 'Petal Length', 'Mean' :  meanPetLeng, 'Std Dev' : StdPetLeng}],index=['1','2','3'] )
+df1
+
+#################
+
 
 # Below is the graph program (BasicGraphs.py) 
 
