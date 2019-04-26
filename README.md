@@ -12,7 +12,7 @@ The combination of these four features can be used to identify each particular s
     *Have created code to import the numpy program for performing scientific calculations
     *Have used iPython on CMDER to check that code i am writing is error free. i have found some errors but have resolved them. see notes in code for examples
     *Have written code to find the mean value for data in each column
-    *Prepared a HIPO project plan which is a hierarchy Input Process Output flow chart showing how i will creat small simple modules for codes then joining together into a larger module.
+    *Prepared a HIPO project plan which is a hierarchy Input Process Output flow chart showing how i will create small simple modules for codes then joining together into a larger module.
 
 
 24April2019
@@ -27,5 +27,10 @@ The combination of these four features can be used to identify each particular s
     *I was also able to create histograms. 
     *Currently output in "BasicGraphs.py" shows scatter plots (four graphs - two proahs per two window) and histograms (four graphs pn one window and one graph on four windows)  
     *Next steps to look at dividing output by species
+
+26April2019
+    *Basic summary stats program (BasicSummStats.py) and graph program (BasicGraphs.py) joined into one program called "SummaryStatsGraph.py". this is now a program that will take a data set, format data into an array for analysis then perform analysis on the data. The output is summary statistics (mean standard, deiation, min/max), histogram and scatterplots for each variable.
+    *As per my HIPO plan i have completed one section of my project plan. The next step is to repeat the same program but sub divide the output by species.
+
 
 
