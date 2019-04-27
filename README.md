@@ -38,5 +38,6 @@ The combination of these four features can be used to identify each particular s
     *During my reading i think i code some code which i may be able to use to allow my summary stats be displayed as a table via the append section of the notes. I am going to practise via ipython and using the BasicSummStats.py file. After much practice on ipython i got wrote code to output the summary stats in a table. the Summary StatsGraph.py file has been updated
    
 27April2019 Afternoon
-    *the aim is to give stats value by species.
-    *will also try to write program for estiating probable Iris species based on inputted data.
+    *Successfully able to display stats by species type - references in the files to be added here
+    *I'm stuck on trying to dispplay graphs whihc colour code by species. i ahve done some research but i think i am over complicating it. Will try again tomorrow.
+    *will also try to write program for estimating probable Iris species based on inputted data tomorrow.

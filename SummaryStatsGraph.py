@@ -39,7 +39,7 @@ StdPetWid = numpy.std(data[:,3])
 MinPetWid = numpy.min(data[:,3])
 MaxPetWid = numpy.max(data[:,3])
 
-
+# 27APRIL - Could i use this could as simpler?  .describe()
 
 # Deleted the following code as i prefer the data output in a table format (see below):
 #print("Sepal Length Summary Statistics are:" , "mean: ", meanSepLeng, ", Std Dev: ", StdSepLeng, ", min and max:", MinSepLeng , MaxSepLeng)
@@ -79,7 +79,7 @@ PetLeng = data[:,2]
 PetWid = data[:,3]
 Species = data[:,4]
 
-# 1: Scatterplot
+# 1: Scatterplot - Used to show the relationship between two variables
 fig = plt.scatter([SepLeng] , [PetLeng]) 
 fig = plt.scatter([SepWid] , [PetWid])
 
