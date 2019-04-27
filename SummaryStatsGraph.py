@@ -62,7 +62,7 @@ Petal = pd.DataFrame({'Stat': ['Mean', 'Std Dev' , 'Min' , 'Max'], 'Petal Length
 
 
 print(pd.merge(Sepal, Petal, on='Stat'))
-# It works a treat
+# It works a treat and i get a nice table as the output
 
 #################
 
