@@ -39,23 +39,30 @@ StdPetWid = numpy.std(data[:,3])
 MinPetWid = numpy.min(data[:,3])
 MaxPetWid = numpy.max(data[:,3])
 
-print("Sepal Length Summary Statistics are:" , "mean: ", meanSepLeng, ", Std Dev: ", StdSepLeng, ", min and max:", MinSepLeng , MaxSepLeng)
 
-print("Sepal Width Summary Statistics are:" , "mean: ", meanSepWid, ", Std Dev: ", StdSepWid, ", min and max:", MinSepWid , MaxSepWid)
 
-print("Petal Length Summary Statistics are:" , "mean: ", meanPetLeng, ", Std Dev: ", StdPetLeng, ", min and max:", MinPetLeng , MaxPetLeng)
-
-print("Petal Width Summary Statistics are:" , "mean: ", meanPetWid, ", Std Dev: ", StdPetWid, ", min and max:", MinPetWid , MaxPetWid)
+# Deleted the following code as i prefer the data output in a table format (see below):
+#print("Sepal Length Summary Statistics are:" , "mean: ", meanSepLeng, ", Std Dev: ", StdSepLeng, ", min and max:", MinSepLeng , MaxSepLeng)
+#print("Sepal Width Summary Statistics are:" , "mean: ", meanSepWid, ", Std Dev: ", StdSepWid, ", min and max:", MinSepWid , MaxSepWid)
+#print("Petal Length Summary Statistics are:" , "mean: ", meanPetLeng, ", Std Dev: ", StdPetLeng, ", min and max:", MinPetLeng , MaxPetLeng)
+#print("Petal Width Summary Statistics are:" , "mean: ", meanPetWid, ", Std Dev: ", StdPetWid, ", min and max:", MinPetWid , MaxPetWid)
 
 ##########################
-# This is a code that could be used to give the results as a table using PANDAs.
+
 # A Pandas series is a one-dimensional data structure that can hold any data type such as integers and strings.
-# ref: https://towardsdatascience.com/python-for-data-science-part-3-be9b08660af9
-#  
-# While it runs i don't get an output table - I'll work on this
+# ref:https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+# #ref: https://towardsdatascience.com/python-for-data-science-part-3-be9b08660af9
+# This is a code that is used to give the results as a table using PANDAs.
 import pandas as pd
-df1 = pd.DataFrame([{'Variable' : 'Sepal Length', 'Mean' :  meanSepLeng, 'Std Dev' : StdSepLeng},{'Variable' : 'Sepal Width', 'Mean' :  meanSepWid, 'Std Dev' : StdSepWid},{'Variable' : 'Petal Length', 'Mean' :  meanPetLeng, 'Std Dev' : StdPetLeng}],index=['1','2','3'] )
-df1
+
+Sepal = pd.DataFrame({'Stat': ['Mean', 'Std Dev' , 'Min' , 'Max'], 'Sepal Length': [meanSepLeng, StdSepLeng, MinSepLeng , MaxSepLeng], 'Sepal Width': [meanSepWid, StdSepWid, MinSepWid, MaxSepWid]})
+Petal = pd.DataFrame({'Stat': ['Mean', 'Std Dev' , 'Min' , 'Max'], 'Petal Length': [meanPetLeng, StdPetLeng, MinPetLeng , MaxPetLeng], 'Petal Width': [meanPetWid, StdPetWid, MinPetWid, MaxPetWid]})
+#this code creates a table of 3 columns with headers stats, Sepal Length and Sepal width. returns a table of the various stats for the sepal width and length
+# Use code below to merge tables above to create a table of all the summary stats for the petal and sepal length and width 
+
+
+print(pd.merge(Sepal, Petal, on='Stat'))
+# It works a treat
 
 #################
 

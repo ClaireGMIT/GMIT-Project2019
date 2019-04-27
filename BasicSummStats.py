@@ -5,6 +5,7 @@
 # Data set to be analysed is Fisher's Iris Data Set
 
 import numpy
+import pandas as pd
 
 data = numpy.genfromtxt('DataSet.csv', delimiter=',')
 
@@ -45,3 +46,28 @@ print("Petal Length Summary Statistics are:" , "mean: ", meanPetLeng, ", Std Dev
 print("Petal Width Summary Statistics are:" , "mean: ", meanPetWid, ", Std Dev: ", StdPetWid, ", min and max:", MinPetWid , MaxPetWid)
 
 # This tidies up the data but if i have time i will try to give the output in a table format
+
+
+
+###########################################
+# Using PANDS to get the summary data into a table output
+
+Sepal = pd.DataFrame({'Stat': ['Mean', 'Std Dev' , 'Min' , 'Max'], 'Sepal Length': [meanSepLeng, StdSepLeng, MinSepLeng , MaxSepLeng], 'Sepal Width': [meanSepWid, StdSepWid, MinSepWid, MaxSepWid]})
+Petal = pd.DataFrame({'Stat': ['Mean', 'Std Dev' , 'Min' , 'Max'], 'Petal Length': [meanPetLeng, StdPetLeng, MinPetLeng , MaxPetLeng], 'Petal Width': [meanPetWid, StdPetWid, MinPetWid, MaxPetWid]})
+#this code creates a table of 3 columns with headers stats, Sepal Length and Sepal width. returns a table of the various stats for the sepal width and length
+# Use code below to merge tables above to create a table of all the summary stats for the petal and sepal length and width 
+
+
+print(pd.merge(Sepal, Petal, on='Stat'))
+
+
+
+
+
+
+
+
+
+
+
+

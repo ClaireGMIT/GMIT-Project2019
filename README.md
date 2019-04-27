@@ -33,5 +33,8 @@ The combination of these four features can be used to identify each particular s
     *As per my HIPO plan i have completed one section of my project plan. The next step is to repeat the same program but sub divide the output by species.
     *Began looking at using PANDAs to organise my data into 2D dataframes ie columne containing data and rows containing indexes. Having some issues with errors which i'll look into more tomorrow.
 
-
+27April2019 Morning
+    *This morning i am rereading the 10 minutes to PANDs notes (ref:https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html) and practising to understand what it does via using ipython
+    *During my reading i think i code some code which i may be able to use to allow my summary stats be displayed as a table via the append section of the notes. I am going to practise via ipython and using the BasicSummStats.py file. After much practice on ipython i got wrote code to output the summary stats in a table. the Summary StatsGraph.py file has been updated
+   
 
