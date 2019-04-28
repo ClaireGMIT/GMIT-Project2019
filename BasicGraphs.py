@@ -1,7 +1,7 @@
 # Claire Nolan 25April2019
 
 # PANDS Project 2019
-# Code to statistically analyse a data set and output graphs
+# AIM: Code to statistically analyse a data set and output graphs
 # Data set to be analysed is Fisher's Iris Data Set
 # The Iris dataset was published and discussed in RObert Fishers 1936 paper "The use of multiple measurements in taxonomic problem". The data was collected to quantify the physical variation of Iris flowers of three related species. 
 # The data set consists of 50 samples from three species of iris (Iris setosa, Iris virginica, Iris versicolor). 
@@ -16,7 +16,7 @@
 
 
 import numpy
-# Impurt numpy finction
+# Import numpy function
 
 import matplotlib.pyplot as plt
 # import Mat lab function

@@ -1,3 +1,13 @@
+# Claire Nolan 24Apr2019
+
+# PANDS Project 2019
+
+# AIM: To creat scatterplots for the variables data with different colour data points for each species
+# References:https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html ; https://matplotlib.org/users/pyplot_tutorial.html
+
+# Data set to be analysed is Fisher's Iris Data Set
+# Note 28April - Current status of trying to create graphs where data points are differentiated by colour for each species
+# I have not been successful so far using the code below adapted from referenced articles
 
 import numpy as np
 import matplotlib.pyplot as plt

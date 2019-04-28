@@ -1,10 +1,10 @@
 # Claire Nolan 24Apr2019
 
 # PANDS Project 2019
-# Small module to analyse a data set and output the standard deviation
+# AIM: Small module to analyse a data set and output the standard deviation
 # Data set to be analysed is Fisher's Iris Data Set
 
-# code copied from initial work done for mean values.
+# code copied from initial work done for mean values (Mean.py).
 
 # Step 1: Format data set for analysis
 

@@ -3,7 +3,7 @@
 # PANDS Project 2019
 # Data set to be analysed is Fisher's Iris Data Set
 # Basic summary stats program (BasicSummStats.py) and graph program (BasicGraphs.py) joined into one program called "SummaryStatsGraph.py". 
-# This is now a program that will take a data set, format data into an array for analysis then perform analysis on the data. 
+# AIM: This is now a program that will take a data set, format data into an array for analysis then perform analysis on the data. 
 # The output is summary statistics (mean standard, deiation, min/max), histogram and scatterplots for each variable.
 
 

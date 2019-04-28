@@ -1,7 +1,7 @@
 # Claire Nolan 24Apr2019
 
 # PANDS Project 2019
-# Small module to analyse a data set and output the min and max values
+# AIM: Small module to analyse a data set and output the min and max values
 # Data set to be analysed is Fisher's Iris Data Set
 
 # code copied from initial work done for mean values.

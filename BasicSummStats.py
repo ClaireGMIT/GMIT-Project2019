@@ -1,7 +1,7 @@
 # Claire Nolan 24Apr2019
 
 # PANDS Project 2019
-# Combining mean.py, StdDev.py, MinMax.py and Graph.py small modules into one larger module to out  the basic summary stats for each column
+# AIM: Combining mean.py, StdDev.py, MinMax.py and Graph.py small modules into one larger module to out  the basic summary stats for each column
 # Data set to be analysed is Fisher's Iris Data Set
 
 import numpy
@@ -17,7 +17,7 @@ Species = data[:,4]
 
 # Initally copied and pasted all code into this file but while i got all the statistic values, the output was too crude. Next step is tidy up the output
 
-meanSepLeng = numpy.mean(data[:,0])
+meanSepLeng = numpy.mean(data[:,0]) # returns mean of the sepal length values
 StdSepLeng = numpy.std(data[:,0])
 MinSepLeng = numpy.min(data[:,0])
 MaxSepLeng = numpy.max(data[:,0])

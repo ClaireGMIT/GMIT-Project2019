@@ -1,7 +1,7 @@
 # Claire Nolan 24Apr2019
 
 # PANDS Project 2019
-# Small module to analyse a data set and output the mean value
+# AIM: Small module to analyse a data set and output the mean value
 # Data set to be analysed is Fisher's Iris Data Set
 
 
@@ -45,7 +45,7 @@ print("Mean Petal Width is ", meanPetWid)
 
 # Output gives the mean values. I will copy this code for standard deviation and min/max values
 # I will also eventually these single modules into one module to give basic summary stats as an output
-# But there are three species of Iris so will need to break down the average by each species
+# But there are three species of Iris so will also need to break down the average by each species
 
 
 

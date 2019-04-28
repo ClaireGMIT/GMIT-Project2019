@@ -1,6 +1,11 @@
 # Claire Nolan 23Apr2019
 
 # PANDS Project 2019
+
+# AIM: Small module to analyse a data set and output the min and max values
+# Data set to be analysed is Fisher's Iris Data Set
+# note i did not continue with any further work on this file
+
 # Code to statistically analyse a data set
 # Data set to be analysed is Fisher's Iris Data Set
 # The Iris dataset was published and discussed in RObert Fishers 1936 paper "The use of multiple measurements in taxonomic problem". The data was collected to quantify the physical variation of Iris flowers of three related species. 
