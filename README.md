@@ -3,7 +3,7 @@ PANDS Project 2019 - Project 2019 for Programming and scripting course
 Claire Nolan 28April2019
 
 1. EXECUTIVE SUMMARY
-The aim of this project was to take a data set and create code which would to analyse the data. The dataset used was Fishers Iris Data Set. Upon completion of this project for the final commit to ClaireGMIT/GMIT-Project2019 i was able to take the data set, describe the basic summary statisitics, and publish histogram and scatterplots. This was also performed on a species by species basis. See files SummaryStatsGraph.py and StatSpecies.py. An attempt was made to output scatterplots with coloured data points for each Iris species but this was not successful. I was also unsuccessful in creating code to isdentify the iris type when the user inputted the sepal width and length and petal width and length. This was also unsuccessful. My work to resolve is shown in various screenshots and in files GraphbySpecies.py, GraphSps.py and Spes.py.
+The aim of this project was to take a data set and create code which would to analyse the data. The dataset used was Fishers Iris Data Set. Upon completion of this project for the final commit to ClaireGMIT/GMIT-Project2019 i was able to take the data set, describe the basic summary statisitics, and publish histogram and scatterplots. This was also performed on a species by species basis. See files SummaryStatsGraph.py and StatSpecies.py. The scatterplot of variables using different coloured data points identiying each species was also created as per file SummGraphSps.py. More work is required for this as the output is crude. I was unsuccessful in creating code to isdentify the iris type when the user inputted the sepal width and length and petal width and length. The work to resolve these issues are shown in various screenshots and in files GraphbySpecies.py, GraphSps.py and SpesProb.py. 
 
 
 2. INTRODUCTION
@@ -66,10 +66,12 @@ https://towardsdatascience.com/python-for-data-science-part-1-759524eb493b
 https://towardsdatascience.com/python-for-data-science-part-2-373d6473fa40 
 https://towardsdatascience.com/python-for-data-science-part-4-6087cb811a29 
 Book: "python in easy steps" by Mike Mcgrath"
+https://stackoverflow.com/questions/8202605/matplotlib-scatterplot-colour-as-a-function-of-a-third-variable
 
 
 4. PROJECT PLAN and WORK FLOW TO DEVELOP THE PROGRAM
-Below is a description of all the work I performed on a regular basis. More specific explanations and information can also be found in each of the project files
+Below is a description of all the work I performed on a regular basis. More specific explanations and information can also be found in each of the project files. There are also screenshots showing some of my attempts at writing the code attached to the project as well.
+
 23April2019
     *Have created code to import the numpy program for performing scientific calculations
     *Have used iPython on CMDER to check that code i am writing is error free. i have found some errors but have resolved them. see notes in code for examples
@@ -108,10 +110,14 @@ Below is a description of all the work I performed on a regular basis. More spec
     *Yesterday i got stuck on the graph outputs displaying different colours by species. Today i reread the matplot library tutorial https://matplotlib.org/users/pyplot_tutorial.html to get back to basics. I was not successful. *I also rewateched the MatPlotLib tutorial and read the following articles. https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html ; https://towardsdatascience.com/5-quick-and-easy-data-visualizations-in-python-with-code-a2284bae952f ; https://towardsdatascience.com/customizing-plots-with-python-matplotlib-bcf02691931f 
     *I was not successful in adapting the sample codes in these articles but i have added them to program "GraphbySpecies.py" to try again at a later date
     *I moved on the creating a program that would help identify the most probable Iris species when the user inputs the petal length and width, and the Sepal length and width. Unfortunately i had to create data in excel for the caluculating the range (mean+/-(3*StdDev)) but i contnued with the rest of the program
-
+    *Update after final commit - i was also able to find code which gave the result for the scatterplots by species. This is saved in SummGraphSps.py and gives very crude output. The next steps would be to refine the output by adding a legend, making more charts etc.
 
 5. RESULTS
-The aim of this project was to take a data set and create code which would to analyse the data. The dataset used was Fishers Iris Data Set. I broke the project into small modules and worked on the small modules indeendently then combined them when they were successful. Upon completion of this project for the final commit to ClaireGMIT/GMIT-Project2019 i was able to take the data set, describe the basic summary statisitics, and publish histogram and scatterplots. This was also performed on a species by species basis. See files SummaryStatsGraph.py and StatSpecies.py. An attempt was made to output scatterplots with coloured data points for each Iris species but this was not successful. I was also unsuccessful in creating code to isdentify the iris type when the user inputted the sepal width and length and petal width and length. This was also unsuccessful. My work to resolve is shown in various screenshots and in files GraphbySpecies.py, GraphSps.py and Spes.py.
+The aim of this project was to take a data set and create code which would to analyse the data. The dataset used was Fishers Iris Data Set. I broke the project into small modules and worked on the small modules independently then combined them when they were successful. 
+
+Upon completion of this project for the final commit to ClaireGMIT/GMIT-Project2019 i was able to take the data set, describe the basic summary statisitics, and publish histogram and scatterplots. This was also performed on a species by species basis. See files SummaryStatsGraph.py, SummGraphSps.py and StatSpecies.py. 
+
+An attempt was made to output scatterplots with coloured data points for each Iris species but this was not successful. I was also unsuccessful in creating code to isdentify the iris type when the user inputted the sepal width and length and petal width and length. This was also unsuccessful. My work to resolve is shown in various screenshots and in files GraphbySpecies.py, GraphSps.py and SpesProb.py.
 
 
 6. CONCLUSION
