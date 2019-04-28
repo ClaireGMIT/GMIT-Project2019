@@ -41,3 +41,7 @@ The combination of these four features can be used to identify each particular s
     *Successfully able to display stats by species type - references in the files to be added here
     *I'm stuck on trying to dispplay graphs whihc colour code by species. i ahve done some research but i think i am over complicating it. Will try again tomorrow.
     *will also try to write program for estimating probable Iris species based on inputted data tomorrow.
+
+28April2019
+    *Today the plan is to finish printing graphs for each variable by species,create a program to ask user to input variables and get an output identifying probable Iris species, then tidy code and complete the readme file as a project report.
+    *Yesterday i got stuck on the graph outputs displaying different colours by species. Today i reread the matplot library tutorial https://matplotlib.org/users/pyplot_tutorial.html to get back to basics.
